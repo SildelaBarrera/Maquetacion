@@ -1,4 +1,8 @@
-
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    }
 .Total{
 
     height: 90vh;
@@ -24,42 +28,10 @@ a{
     flex-direction: row;
     height: 100%;
     width: 100%;  
-    flex-wrap: wrap; 
+    flex-wrap: wrap;   
 }
-#im1{
-    display: flex;
-    flex-direction: row;
-    height: 50%;
-    width: 33%; 
-}
-#im2{
-    display: flex;
-    flex-direction: row;
-    height: 50%;
-    width: 33%; 
-}
-#im3{
-    display: flex;
-    flex-direction: row;
-    height: 50%;
-    width: 33%; 
-}
-#im4{
-    display: flex;
-    flex-direction: row;
-    height: 50%;
-    width: 33%; 
-}
-#im5{
-    display: flex;
-    flex-direction: row;
-    height: 50%;
-    width: 33%; 
-}
-#im6{
-    display: flex;
-    flex-direction: row;
-    height: 50%;
-    width: 33%; 
+.Container img{
+    height: 51.4%;
+    width: 33.33%;
 }
 
