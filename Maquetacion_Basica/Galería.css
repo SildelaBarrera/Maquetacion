@@ -1,0 +1,65 @@
+
+.Total{
+
+    height: 90vh;
+    width: 100vw;
+}
+
+.BarraNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+a{
+    font-size: medium;
+    color: white;
+}
+.Container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;  
+    flex-wrap: wrap; 
+}
+#im1{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 33%; 
+}
+#im2{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 33%; 
+}
+#im3{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 33%; 
+}
+#im4{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 33%; 
+}
+#im5{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 33%; 
+}
+#im6{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 33%; 
+}
+

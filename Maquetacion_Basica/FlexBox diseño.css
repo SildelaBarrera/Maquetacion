@@ -1,0 +1,112 @@
+.Padre1{
+    border: 7px rgb(223, 206, 206) solid;
+    border-radius: 6px;
+    width: 350px;
+    height: 80vh;
+    padding: 4px;
+}   
+.Header{
+    border: 3px rgb(120, 240, 184) solid;
+    border-radius: 6px;
+    height: 15% ;
+    margin: 2px;
+    display:flex;
+    justify-content: flex-start space-around;
+}
+.Nav{
+    border: 3px rgb(218, 148, 159) solid;
+    border-radius: 6px;
+    height: 7%;
+    padding: 2px;
+    margin: 2px;
+    display:flex;
+    align-items: center;
+}
+.Padre2{
+    height:63%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2px;
+    margin:(0px, 0px, 2px, 0px)   
+}
+.Article{
+    border: 3px rgb(68, 192, 214) solid;
+    border-radius: 6px;
+    height:100%;
+    width:58%;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+}
+.Header2{
+    border: 3px rgb(120, 240, 184) solid;
+    height: 15%;
+    width: 95%;
+    margin: 2px  ; 
+    display: flex;
+    align-items: center;
+}
+.Sections{
+    height: 75% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;   
+}
+.Section1{
+    border: 3px rgb(235, 63, 241) solid;
+    height: 15%;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+}
+.Section2{
+    border: 3px rgb(235, 63, 241) solid;
+    height: 15%;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+}
+.Footer2{
+    border: 3px rgb(241, 223, 63) solid;
+    height: 10%;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+}
+.Div{
+    border: 3px rgb(245, 164, 44) solid;
+    border-radius: 6px;
+    height:100%;
+    width:35%;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;      
+}
+.Aside1{
+    border: 3px rgb(58, 255, 245) solid;
+    height:45%;
+    width:90%;  
+    padding: 2px;
+    
+    
+}
+.Aside2{
+    border: 3px rgb(58, 255, 245) solid;
+    height: 39%;
+    width:90%; 
+    padding: 2px;   
+}
+.Footer1{
+    border: 3px rgb(241, 223, 63) solid;
+    border-radius: 6px;
+    height: 7%;
+    width: 96%;
+    padding: 2px;
+    display:flex;
+    align-items: center;
+    margin-top: 12px;    
+}
