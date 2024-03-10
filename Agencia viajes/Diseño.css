@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:rgb(233, 196, 129);
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+header{
+    height: 50px; 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+    background-color: rgba(230, 219, 76, 0.932);
+    font-size: x-small;
+}
+.title{
+    background: repeating-linear-gradient(rgb(250, 250, 177), rgb(68, 201, 235));
+    height:200px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: fantasy;
+    column-gap: 5px;
+}
+h1{
+    color:rgb(134, 55, 23);
+    padding:10px;
+}
+h2{
+    color:rgb(134, 55, 23);
+    padding:10px;
+    font-family:monospace;
+}
+
+.descripcion{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(90, 69, 56);
+    text-align: center;
+    font-size: medium;
+    display:flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+#lema{
+    font-size: medium;
+    font-weight: bold;
+}
+.ofertas{
+    height:600px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;   
+}
+.promociones{
+    background-color: rgb(68, 201, 235);
+    border: dotted 4px rgb(80, 35, 17);
+    color: rgb(80, 35, 17);
+    width: 100%;
+    padding:15px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;   
+}
+
+#corre{
+    margin: 10px;
+    font-size: x-large;
+    font-family:monospace;
+    font-weight: bold;
+}
+.of{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(195, 233, 255);
+}
+.oferta1{
+
+    width: 50%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    background: repeating-linear-gradient(rgb(151, 232, 252),rgb(233, 196, 129));
+    
+}
+.oferta2{
+    width: 50%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    background: repeating-linear-gradient(rgb(151, 232, 252),rgb(233, 196, 129));
+    
+}
+.of img{
+    height: 500px;
+    width: 350px;   
+}
+.texto{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 50px;
+    border: dotted 2px rgb(87, 33, 33);
+    padding: 10px;
+    background-color: aliceblue;
+}
+.texto h2{
+    
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container1{
+    height: 900px;
+}
+
+.container2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    height: 70%;
+    font-size: x-large;
+    font-family: monospace;
+    color: rgb(99, 45, 13);
+    font-weight: bold;
+}
+form{
+    height: 60%;
+    display:flex;
+    flex-direction: column; 
+    justify-content:flex-end;   
+    align-items: center;
+    row-gap: 25px;
+}
+form input{
+    height: 40px;
+    width: 500px;
+    background-color:rgb(255, 203, 136);
+}
+button{
+    width: 170px;
+    height: 50px;
+    padding: 5px;
+    background-color: rgb(248, 235, 228);
+    border:none;
+    border-radius: 8px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(80, 80, 80);
+}
+.informacion{
+    height: 30%;
+    width: 100%;
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: repeating-linear-gradient(rgb(233, 196, 129),rgb(151, 232, 252));
+    color: rgb(80, 35, 17);    
+}
+
+.informacion h3{
+    padding: 6px; 
+}
+#info{
+    height: 80%;
+    width: 50%;
+    font-size: 12pt;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap;  
+    background-color: beige; 
+}
