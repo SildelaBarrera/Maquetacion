@@ -1,0 +1,198 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    }
+.container1{
+    display: flex;
+    justify-content: column;
+    height: 100vh;
+    width: 100wh;
+}
+.header1{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:80px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.imagen{
+    height: 100%;
+    width: 30%;
+    margin-left: 100px;
+    margin-right: 100px;
+    display:flex;
+    align-items: center;
+}
+#img{
+    height: 40%;
+    width: 45%;
+}   
+.enlaces{
+    height: 100%;
+    width: 70%;
+    color: rgba(246, 246, 246, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-left: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.intro{
+    height:1500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.intro1{
+    height: 42%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(40, 116, 252);
+       
+}
+.texto1{
+    color:rgba(246, 246, 246, 1);
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    font-size: 15pt;
+
+}
+.texto1 h1{
+    color:rgb(202, 248, 128);
+    font-size: 50pt;  
+}
+
+.logobox{
+    height: 99%;
+    width: 40%; 
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#logoIn2{
+    height: 150%;
+    width: 100%;
+    margin-top: 10px;
+    position:relative;
+}
+.intro2{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0); 
+    color: white;  
+    padding-left: 30px;
+    padding-left: 100px;
+}
+.texto2{
+    color:rgba(246, 246, 246, 1);
+    width: 60%;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 100px;
+}
+.texto2 h2{
+    color:rgba(246, 246, 246, 1);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+}
+
+.texto2 h3{
+    color:rgba(246, 246, 246, 1);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+.texto2 p2{
+    color:rgba(246, 246, 246, 1);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+.texto2 p3{
+    color:rgba(246, 246, 246, 1);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+.logobox2{
+    height:80%;
+    width: 40%; 
+    margin-top: 40px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+#logoIn3{
+    height: 100%;
+    width: 40%;
+    margin-top: 10px;
+    position:relative;
+}
+.why{
+    height:500px;
+    width: 100%; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;   
+    align-items: center;  
+}
+
+#logoMo1{
+    height: 30%;
+    width: 25%;
+}
+.motivos{
+    background-color: rgb(40, 116, 252);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 90%;
+    width: 100%; 
+    margin: 20px;
+}
+.mot1{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.mot2{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.mot3{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
