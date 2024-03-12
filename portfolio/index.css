@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --verdesuave: rgb(153, 212, 166);
+    --verdegris: rgb(128, 173, 142);
+    --verdeblanco:rgb(206, 240, 217);
+    --beige:  rgb(241, 235, 235);
+    --beigeoscuro: rgb(223, 210, 151);
+    --gris:#d6d3cc;
+    --blancogris: #d0d5d9;
+    --blancoazul:#e0e7d7;
+    --negro:rgb(25, 27, 21); 
+}
+body{
+    width: 100%;
+    height: 100hv;
+    display: flex;
+    flex-direction: column;  
+
+}
+.barraNav{
+    height:100%;
+    width:30%;
+    background-color: var(--verdegris);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+.anclas{
+    height:40%;
+    width:70%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;   
+}
+.anclas a:hover{
+    color:var(--gris);
+}
+.nombre{
+    height: 50%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;   
+}
+.nombre h1{
+    font-family: fantasy;
+    font-size: 45pt;
+}
+.nombre h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15pt;
+}
+.cabecera{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 8%;
+    width: 100%;
+    padding-left: 250px;  
+}
+
+#fotoInicio{
+    height: 100%;
+    width: 100%;
+}
+.containerIntro{
+    height:10%;
+    width: 100wh;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blancogris);
+    position: relativa;
+    margin-left: 250px;
+  
+}
+.intro1{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 80%;
+    width: 30%;  
+    margin-bottom: 30px;
+}
+#fotoMia{
+    width: 80%;
+    border-radius:80%; 
+    border: 4px solid rgb(25, 27, 21); 
+}
+
+.sobreMi{
+    height: 90%;
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 20px;
+    border: 4px groove var(--negro);
+    background-color: rgb(241, 235, 235);
+    
+}
+.sobreMi h2{
+    text-align: start;
+    height: 60%;
+    width: 90%;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.containerTecnologias{
+    height: 15%;
+    width: 100%;
+    background-color: var(--gris);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.titulo{
+    height: 50px;
+    width: 200px;
+    font-family: fantasy;
+    font-size: large;
+    color:black;
+    border: 4px groove var(--negro);
+    background-color: rgb(241, 235, 235);
+    text-align: center;
+    margin-top:30px;
+}
+.tecno{
+    height: 30%;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; 
+}
+.imagenDeco{
+    height: 55%;
+    width: 30%;
+}
+#fotoDeco{
+    height: 100%;
+    width: 100%;
+}
+.conjuntoTec{
+    height: 75%;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+    column-gap: 15px;  
+    margin-left:400px;
+    padding:40px;   
+}
+.conjuntoTec img{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;    
+}
+.tec{
+    height: 25%;
+    width: 80%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;  
+    margin:10px;
+    font-size: small;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.containerProyectos{
+    height: 50%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;  
+    background-color: var(--beige); 
+}
+.agencia{
+    height: 500px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center; 
+    row-gap: 30px;  
+}
+#agencia{
+    height: 50%;
+    width: 30%;
+}
+.textoAgencia{
+    height: 80%;
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;   
+    margin:40px;
+    padding:30px;
+    background-color: var(--blancogris);
+    border: 4px groove var(--negro);
+}
+.textoAgencia h2{
+    text-align: center;   
+}
+.textoAgencia h4{
+    font-weight: bold;
+}
+.contacto{
+        height: 500px;
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center; 
+        row-gap: 30px; 
+        background-color: var(--blancoazul); 
+}       
+.textoCont{
+    height: 40%;
+    width: 35%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--blancogris);
+    border: 4px groove var(--negro);
+    padding:20px;
+    background-color: var(--blancogris);
+    border: 4px groove var(--negro);
+    margin-left: 265px; 
+    color:var(--negro);
+}
+.links:hover{
+    color: var(--verdegris);
+}
+.fotoFin{
+    height: 30%;
+    width: 70%;
+    font-weight: 100%;
+    margin-left: 400px; 
+}   
+#fotoFin{
+    height: 100%;
+    width: 100%;
+}
