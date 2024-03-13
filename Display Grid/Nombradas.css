@@ -1,0 +1,131 @@
+
+.grid{
+    height: 500px;
+    width: 850px;
+    color: white;
+
+    display:grid;
+    grid-template-columns: [x0] 3fr [x1] 1fr [x2] ;
+    grid-template-rows: [y0] 1fr [y1] 5fr [y2] 1fr [y3];    
+}
+.h{
+    background-color: black; 
+    grid-column: x0/x2;
+    grid-row: y0;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.bloque1{
+    background-color: blue;
+    grid-column: x0/x1;
+    grid-row: y1/y2;
+    padding: 6px;
+    
+    display:grid;
+    grid-template-columns: [x0] 1fr [x1];
+    grid-template-rows: [y0] 1fr [y1] 2fr [y2];
+}
+.conte{
+    grid-column: x0/x1;
+    grid-row: y0/y1;
+    border: 1px white solid;
+    margin: 6px;
+    padding: 5px;
+    font-weight: bold;
+}
+.textos{
+    grid-column: x0/x1;
+    grid-row: y1/y2;
+    
+    display:grid;
+    grid-template-columns: [x0] 2fr [x1] 1fr [x2];
+    grid-template-rows: [y0] 1fr [y1];
+}
+.t1{
+    border: 1px white solid;
+    grid-column: x1/x2; 
+    grid-row: y0/y1;   
+    margin: 6px;
+    padding: 5px;
+}
+.t2{
+    border: 1px white solid;
+    grid-column: x0/x1;   
+    grid-row: y0/y1; 
+    margin: 6px;   
+    padding: 5px;
+}
+.bloque2{
+    background-color: rgb(53, 202, 202); 
+    grid-column: x1/x2;
+    grid-row: y1/y2;
+    padding: 6px;
+
+    display:grid;
+    grid-template-columns: [x0] 1fr [x1];
+    grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3] 1fr [y4];
+}
+.menu{
+    grid-column: x0/x1;
+    grid-row: y0/y1;
+    border: black 1px solid;
+    margin: 6px;
+    padding: 5px;
+    padding-top: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+.m1{
+    grid-column: x0/x1;
+    grid-row: y1/y2;
+    background-color: black;
+    margin: 6px;
+    padding: 5px;
+    text-align: center;
+    padding-top: 22px;
+}
+.m2{
+    grid-column: x0/x1;
+    grid-row: y2/y3;
+    background-color: black;
+    margin: 6px;
+    padding: 5px;
+    text-align: center;
+    padding-top: 22px;
+}
+.m3{
+    grid-column: x0/x1;
+    grid-row: y3/y4;
+    background-color: black;
+    margin: 6px;
+    padding: 5px;
+    text-align: center;
+    padding-top: 22px;
+}
+.f{
+    background-color: purple;
+    grid-column: x0/x2;
+    grid-row: y2;
+    padding: 5px;
+
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2];
+    grid-template-rows: [y0] 1fr [y1];
+}
+.foot{
+    grid-column: x0/x1;
+    grid-row: y0/y1;
+    border: 1px solid black;
+    margin: 3px;
+    padding-top: 15px;
+    text-align: center;
+}
+.conta{
+    grid-column: x1/x2;
+    grid-row: y0/y1;
+    border: 1px solid black;
+    margin: 3px;
+    padding-top: 15px;
+    text-align: center;
+}

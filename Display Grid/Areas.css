@@ -1,0 +1,94 @@
+.grid{
+    height: 500px;
+    width: 850px;
+    color: white;
+
+    display:grid;
+    grid-template-areas: "cabecera"
+                            "main"
+                            "main"
+                            "main" 
+                            "footer";
+}
+
+.cabecera{
+    grid-area:cabecera; 
+    background-color: rgb(192, 80, 60);
+
+    display: grid;
+    grid-template-areas: "header header imagen";
+}
+.he{
+    grid-area: header;
+    text-align: center;
+    padding-top: 10px;
+}
+.im{
+    grid-area:imagen;
+    background-color: rgb(82, 27, 17);
+    text-align: center;
+    padding-top: 10px;
+}
+.main{
+    grid-area: main;
+
+    display: grid;
+    grid-template-areas: "aside cont cont";
+}
+.bloque1{
+    grid-area: aside;
+    background-color: rgb(255, 142, 36);
+    padding:12px;
+    
+    display: grid;
+    grid-template-areas: "aside1 "
+                         "aside0"
+                         "aside2";
+}
+.asi1{
+    grid-area: aside1;
+    background-color: white;
+    color:orangered;
+    text-align: center;
+    padding-top: 10px;
+}
+.asi0{
+    grid-area:aside0; 
+    margin:15px;
+}
+.asi2{
+    grid-area: aside2;
+    background-color: white;
+    color:orangered;
+    text-align: center;
+    padding-top: 10px;
+}
+.bloque2{
+    grid-area: cont;
+    padding:12px;
+    background-color: rgb(216, 66, 28);
+    
+    display:grid;
+    grid-template-areas: "contenido "
+                         "texto";
+}
+.cont{
+    grid-area: contenido;
+    border: 1px solid white;
+    margin-bottom:2px;
+    text-align: center;
+    padding-top: 10px;
+}
+.text{
+    grid-area: texto;
+    border: 1px solid white;
+    margin-top:2px;
+    text-align: center;
+    padding-top: 10px;
+}
+.footer{
+    grid-area: footer;
+    background-color: rgb(83, 32, 19);
+    text-align: center;
+    padding-top: 10px;
+}
