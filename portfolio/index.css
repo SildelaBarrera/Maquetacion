@@ -70,7 +70,6 @@ body{
     width: 100%;
     padding-left: 250px;  
 }
-
 #fotoInicio{
     height: 100%;
     width: 100%;
@@ -84,8 +83,7 @@ body{
     align-items: center;
     background-color: var(--blancogris);
     position: relativa;
-    margin-left: 250px;
-  
+    margin-left: 250px;  
 }
 .intro1{
     display:flex;
@@ -110,6 +108,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     margin-left: 20px;
+    padding:6px;
     border: 4px groove var(--negro);
     background-color: rgb(241, 235, 235);
     
@@ -118,7 +117,7 @@ body{
     text-align: start;
     height: 60%;
     width: 90%;
-    font-size: medium;
+    font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .containerTecnologias{
@@ -141,6 +140,10 @@ body{
     background-color: rgb(241, 235, 235);
     text-align: center;
     margin-top:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .tecno{
     height: 30%;
@@ -204,8 +207,8 @@ body{
     row-gap: 30px;  
 }
 #agencia{
-    height: 50%;
-    width: 30%;
+    height: 40%;
+    width: 30%; border: 4px groove var(--negro);
 }
 .textoAgencia{
     height: 80%;
@@ -213,11 +216,13 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center;  
+    text-align: center; 
     margin:40px;
     padding:30px;
     background-color: var(--blancogris);
     border: 4px groove var(--negro);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .textoAgencia h2{
     text-align: center;   
