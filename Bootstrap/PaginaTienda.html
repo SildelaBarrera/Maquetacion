@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tienda online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+  </head>  
+  
+  <body>
+
+    <!-- BARRA NAVEGACIÓN -->
+    <nav class="navbar  justify-content-start " style="background-color: black;">
+
+        <img src="nash!.png" style="width: 50px; height:50px" class="d-inline-block align-top me-5" alt="">
+        <a class="navbar-brand text-light me-4" style="font-size: medium;" href="#">HOME</a>
+        <a class="navbar-brand text-light me-4" style="font-size: medium;" href="#">ÚLTIMAS LLEGADAS</a>
+        <!-- MENU DESPLEGABLE     -->
+        <li class="nav-item dropdown">        
+            <a class="nav-link dropdown-toggle text-light me-5" href="#" id="navbarDropdownMenuLink" 
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: medium">
+              CATEGORIAS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Pantalones</a>
+              <a class="dropdown-item" href="#">Vestidos</a>
+              <a class="dropdown-item" href="#">Faldas</a>
+            </div>
+          </li>
+        <!-- BOTON Carrito con modal -->
+        <button id="carrito" type="button" class="btn btn-light ms-5" style="border:none"
+                data-toggle="modal" data-target="#modalCarrito">
+        CARRITO
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalCarrito" tabindex="-1" >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" >Prendas añadidas</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <div class="total text-danger me-5"></div>
+                <button type="button" class="cierre btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- CARDS ROPA -->
+    <div class="">
+        <div class="row justify-content-center ">
+            <div class="card c1" style="width: 14rem; margin-top: 2rem; margin-right: 2rem;">
+                <img class="card-img-top" src="pantalones_tallealto.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Pantalón suelto</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="price">20€</p>
+                <button id="prenda1" class= "btn btn-primary bg-black" style="border: none;">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card c2" style="width: 14rem; margin-top: 2rem; margin-right: 2rem;">
+                <img class="card-img-top" src="vestido_tunico.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Vestido Túnico</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="price">18€</p>
+                <button id="prenda2" class= "btn btn-primary bg-black" style="border: none;">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card c3" style="width: 14rem; margin-top: 2rem; margin-right: 2rem;">
+                <img class="card-img-top" src="falda_print.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Falda Mid Print</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="price">12€</p>
+                <button id="prenda3" class= "btn btn-primary bg-black" style="border: none;">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card c4" style="width: 14rem; margin-top: 2rem; margin-right: 2rem;">
+                <img class="card-img-top" src="cardigan_largo_rayas.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Cardigan Rayas</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="price">22€</p>
+                <button id="prenda4" class= "btn btn-primary bg-black" style="border: none;">Añadir al carrito</button>
+                </div>
+            </div>
+          </div>
+        <div class="row justify-content-center ">
+            <div class="card c5" style="width: 14rem; margin-top: 1rem; margin-right: 2rem;">
+                <img class="card-img-top" src="falda_mini_zebra.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Falda Mini Zebra</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="price">10€</p>
+                <button id="prenda5" class= "btn btn-primary bg-black" style="border: none;">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card c6" style="width: 14rem; margin-top: 1rem; margin-right: 2rem;">
+                <img class="card-img-top" src="mono_overol.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Mono beige</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="price">24€</p>
+                <button id="prenda6" class= "btn btn-primary bg-black" style="border: none;">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card c7" style="width: 14rem; margin-top: 1rem; margin-right: 2rem;">
+                <img class="card-img-top" src="vestido_jersey.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Vestido Jersey</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="price">18€</p>
+                <button id="prenda7" class= "btn btn-primary bg-black" style="border: none;">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="card c8" style="width: 14rem; margin-top: 1rem; margin-right: 2rem;">
+                <img class="card-img-top" src="pantalon_ancho.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Pantalón Ancho</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="price">15€</p>
+                <button id="prenda8" class= "btn btn-primary bg-black" style="border: none;">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Diseño.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
