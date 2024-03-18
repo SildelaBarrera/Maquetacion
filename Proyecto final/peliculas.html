@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas</title>
+    <link rel="stylesheet" type="text/css" href="peliculas.css">
+</head>
+
+<body onload="info()">
+    <header>
+        <div class="imagen">
+            <img id="imgHeader" src="imagenes\claqueta.jpg">
+        </div>
+        <div class="pestañas">
+            <a href= "portada.html"> HOME</a>
+            <a href= "profesionales.html">PROFESSIONALS</a>
+            <a href="peliculas.html"> MOVIES</a>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="peliculas">
+            <div class="film f1">
+                <img class="foto" src="imagenes\shutt.jpg">
+                <h3 id="text1">
+                </h3>
+            </div>
+            <div class="film f2">
+                <img class="foto" src="imagenes\big.jpg">
+                <h3 id="text2"></h3>
+                
+            </div>
+            <div class="film f3">
+                <img class="foto" src="imagenes\swee.jpg">
+                <h3 id="text3"></h3>
+                
+            </div>
+            <div class="film f4">
+                <img class="foto" src="imagenes\aven.jpg">
+                <h3 id="text4"></h3>
+                
+            </div>
+            <div class="film f5">
+                <img class="foto" src="imagenes\isla.jpg">
+                <h3 id="text5"></h3>
+                
+            </div>
+            <div class="film f6" >
+                <img class="foto" id="newPhoto" >
+                <h3 id="text6"></h3>
+                    
+        
+
+                
+            </div>
+
+        </div>
+    
+        <div class="formulario">ADD YOUR MOVIE
+            <form action="">
+                <input id="title" type="text"
+                placeholder="Title">
+                <input id="releaseYear" type="text"
+                placeholder="Release year">
+                <input id="nacionality" type="text"
+                placeholder="Nacionality">
+                <input id="language" type="text"
+                placeholder="Language">
+                <input id="plataforma" type="text"
+                placeholder="Plataforma">
+                <input id="ismcu" type="text"
+                placeholder="IsMCU (true/false)">
+                <input id="mainCharacterName" type="text"
+                placeholder="Main Character Name">
+                <input id="producer" type="text"
+                placeholder="Producer">
+                <input id="distributor" type="text"
+                placeholder="Distributor">
+                <input id="genre" type="text"
+                placeholder="Genre">
+                <input id="photo" type="text"
+                placeholder="Cover photo">
+                <button id="boton" type="button" onclick ="guardar()">SAVE</button>   
+                <button id="boton2" type="button" onclick ="añadir()">ADD</button>
+            </form>
+            
+        </div>
+    </div>
+
+    <footer> 
+        <a class="foot" href:instagram.com>Instagram</a>
+        <a class="foot" href:facebook.com>Facebook</a>
+        <a class="foot" href:twitter.com>Twitter</a>
+    </footer>
+    <script src="movie.js"></script>
+</body>
+</html>
