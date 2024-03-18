@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+
+*{  
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+:root{
+    --grisOscuro:rgb(180, 180, 180); 
+    --granate: rgb(163, 4, 4);
+    --negroGris:rgb(34, 33, 33);
+    --mostaza: rgb(204, 137, 13);
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border:dotted 7px white;
+}
+
+#imgHeader{
+    height:65px;
+    width: 65px;
+}
+.pestañas{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+a{
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+    font-family: "Vast Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a:hover{
+    color: rgb(163, 4, 4);
+}
+a:active{
+    color: rgb(238, 175, 175);
+}
+.profesionales{
+    background-image: url("cine2.jpg");
+    height: 1800px;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-family: "Vast Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--grisOscuro);
+    margin-top:40px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: solid 2px var(--grisOscuro);
+}    
+.actores{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ac{
+    background-color: rgb(34, 33, 33);
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 15px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11pt;    
+    
+}
+.foto{
+    height: 300px;
+    width: 200px;
+    border: groove white 8px;
+}
+
+.directores{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.di{
+    background-color: rgb(34, 33, 33);
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 15px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11pt;
+}
+.escritores{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.es{
+    background-color: rgb(34, 33, 33);
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 15px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11pt;
+}
+
+footer{
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--granate);
+    background-color: var(--negroGris);
+}
+.foot{
+    color: var(--granate);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.foot:hover{
+    color:var(--grisOscuro);
+}
+
+
+@media all and (max-width: 1400px){
+    
+    .ac{
+        background-color: rgb(34, 33, 33);
+        height: 250px;
+        width: 350px;
+        column-gap: 10px;   
+        font-size: 9pt;        
+    }
+    .foto{
+        height: 250px;
+        width: 170px;
+        border: groove white 8px;
+    }
+    .di{
+        background-color: rgb(34, 33, 33);
+        height: 250px;
+        width: 350px;
+        column-gap: 10px;   
+        font-size: 9pt;  
+    }
+    
+    .es{
+        background-color: rgb(34, 33, 33);
+        height: 250px;
+        width: 350px;
+        column-gap: 10px;   
+        font-size: 9pt; 
+    }
+}
+
+@media all and (max-width: 1055px){
+    h2{
+        font-size: large;
+        margin-top:35px;
+        margin-bottom: 8px;
+        
+    } 
+    .ac{
+        background-color: rgb(34, 33, 33);
+        height: 180px;
+        width: 350px; 
+        font-size: 9pt;        
+    }
+    .foto{
+        height: 180px;
+        width: 120px;
+        border: groove white 8px;
+    }
+    .di{
+        background-color: rgb(34, 33, 33);
+        height: 180px;
+        width: 350px;
+        font-size: 9pt; 
+    }
+
+    .es{
+        background-color: rgb(34, 33, 33);
+        height: 180px;
+        width: 350px;
+        font-size: 9pt; 
+    }
+}
+
+@media all and (max-width: 705px){
+    .profesionales{ 
+       height: 1000px;
+       
+    }
+    .actores{
+        height: 400px;
+        width: 100%;
+        column-gap:20px;
+    }
+    .ac{
+        background-color: transparent;
+        height: 180px;
+        width: 120px; 
+        font-size: 0pt;        
+    }
+    .foto{
+        height: 180px;
+        width: 120px;
+        border: groove white 8px;
+    }
+    .directores{
+        height: 200px;
+        width: 100%;}
+    .di{
+        background-color: transparent;
+        height: 180px;
+        width: 120px;
+        font-size: 0pt;    
+    }
+    .escritores{
+        height: 200px;
+        width: 100%;}
+    .es{
+        background-color: transparent;
+        height: 180px;
+        width: 120px;
+        font-size: 0pt;  
+    }
+}
+
+@media all and (max-width: 545px){
+
+    h1{
+        font-size: large;
+    }
+    a{
+        font-size: small;
+    }
+    h2{
+        font-size: medium;
+        margin-top:20px;
+        margin-bottom: 5px;
+        
+    } 
+}
+
+@media all and (max-width: 423px){
+    h1{
+        font-size: medium;
+    }
+
+    .pestañas{
+        height: 70px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #imgHeader{
+        height:0px;
+        width: 0px;
+    }
+    h4{
+    font-size: 0pt;
+    }
+    .foot{
+        font-size: small;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .profesionales{ 
+        height: 900px;
+        
+     }
+     .actores{
+         height: 400px;
+         width: 80%;
+         flex-wrap: wrap;
+         column-gap:10px;
+     }
+     .ac{
+         background-color: transparent;
+         height: 100px;
+         width: 60px; 
+         font-size: 0pt;  
+         margin:10px;      
+     }
+     .foto{
+         height: 150px;
+         width: 100px;
+         border: groove white 8px;
+     }
+     .directores{
+         height: 200px;
+         width: 100%;}
+     .di{
+         background-color: transparent;
+         height: 180px;
+         width: 120px;
+         font-size: 0pt;    
+     }
+     .escritores{
+         height: 200px;
+         width: 100%;}
+     .es{
+         background-color: transparent;
+         height: 180px;
+         width: 120px;
+         font-size: 0pt;  
+     }
+ }
+ 
+@media all and (max-width: 367px){
+    a{
+        font-size: x-small;
+    }
+    h1{
+        font-size: small;
+    }
+    .foot{
+        font-size: x-small;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .profesionales{ 
+        height: 900px;
+        
+     }
+     .actores{
+         height: 300px;
+         width: 90%;
+         flex-wrap: wrap;
+         column-gap:10px;
+     }
+     .ac{
+         background-color: transparent;
+         height: 60px;
+         width: 40px; 
+         font-size: 0pt;  
+         margin:10px;      
+     }
+     .foto{
+         height: 100px;
+         width: 60px;
+         border: groove white 8px;
+     }
+     .directores{
+         height: 100px;
+         width: 100%;}
+     .di{
+         background-color: transparent;
+         height: 60px;
+         width: 40px;
+         font-size: 0pt;    
+     }
+     .escritores{
+         height: 100px;
+         width: 100%;}
+     .es{
+         background-color: transparent;
+         height: 60px;
+         width: 40px;
+         font-size: 0pt;  
+     }
+}

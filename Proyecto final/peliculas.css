@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+:root{
+    --grisOscuro:rgb(180, 180, 180); 
+    --granate: rgb(163, 4, 4);
+    --negroGris:rgb(34, 33, 33);
+    --mostaza: rgb(204, 137, 13);
+}
+
+body{
+    height: 100hv;
+    width: 100%;
+}
+header{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border:dotted 7px white;
+}
+
+#imgHeader{
+    height:65px;
+    width: 65px;
+}
+.pestañas{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+    font-family: "Vast Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a:hover{
+    color: rgb(163, 4, 4);
+}
+a:active{
+    color: rgb(238, 175, 175);
+}
+.main{
+    background-image: url("cine2.jpg");
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.peliculas{
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.film{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 15px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8.5pt;
+   
+}
+.foto{
+    height: 300px;
+    width: 200;
+    
+}
+.formulario{
+    height: 40%;
+    color: white;
+    font-family: "Vast Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: dotted 7px white;
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    column-gap: 30px;
+    margin-top:30px;
+
+}
+form{
+    height: 70%;
+    display:flex;
+    flex-direction: column; 
+    justify-content:end;   
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 17px;
+    margin-top: 30px;
+
+}
+form input{
+    height: 40px;
+    width: 500px;
+    background-color:var(--negroGris);  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    width: 140px;
+    height: 40px;
+    padding: 5px;
+    background-color: white;
+    font-weight: bold;
+    border:none;
+    border-radius: 10px;
+    font-family: "Vast Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    color: var(--granate);
+}
+button:hover{
+    background-color: rgb(119, 110, 110);
+    color:rgb(8, 8, 8);
+}
+footer{
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--granate);
+    background-color: var(--negroGris);
+}
+.foot{
+    color: var(--granate);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.foot:hover{
+    color:var(--grisOscuro);
+}
+
+
+
+@media all and (max-width: 1300px){
+
+    .film{
+        height: 200px;
+        width: 300px;
+        font-size: 7pt;
+       
+    }
+    .foto{
+        height: 200px;
+        width: 100;
+        
+    }
+}
+
+@media all and (max-width:1028px){
+    form input{
+        height: 30px;
+        width: 400px;
+
+}
+}
+@media all and (max-width:827px){
+    form{
+        row-gap: 10px;
+    }
+    
+    form input{
+        height: 30px;
+        width: 300px;
+
+    }
+}
+@media all and (max-width:618px){
+    form{
+        row-gap: 8px;
+    }
+    
+    form input{
+        height: 25px;
+        width: 200px;
+
+    }
+    button{
+        width: 70px;
+        height: 30px;
+        padding: 5px;
+    }
+    .film{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0pt;
+   
+    }
+    .foto{
+    height: 200px;
+    width: 100;
+    
+    }
+}
+@media all and (max-width: 545px){
+
+    a{
+        font-size: small;
+    }    
+
+}
+@media all and (max-width: 405px){
+    .film{
+        height: 200px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0pt;
+        margin: 20px;
+        
+        }
+        .foto{
+        height: 200px;
+        width: 120px;
+        
+        }
+    }
+@media all and (max-width: 423px){
+
+    .pestañas{
+        height: 70px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #imgHeader{
+        height:0px;
+        width: 0px;
+    }
+   
+    .foot{
+        font-size: small;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media all and (max-width: 311px){
+    a{
+        font-size: x-small;
+    }
+   
+    .foot{
+        font-size: x-small;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .film{
+        height: 100px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0pt;
+       
+        }
+        .foto{
+        height: 100px;
+        width: 50;
+        
+        }
+        form{
+            row-gap: 5px;
+        }
+        
+        form input{
+            height: 25px;
+            width: 140px;
+    
+        }
+}
